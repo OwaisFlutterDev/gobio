@@ -204,9 +204,9 @@ Widget onBoardingWidget({ String? image }) {
     decoration: BoxDecoration(
         color: greenColor,
         shape: BoxShape.circle,
-        // image: DecorationImage(image: AssetImage(image!),fit: BoxFit.scaleDown)
+        image: DecorationImage(image: AssetImage(image!),fit: BoxFit.scaleDown)
       ),
-    child: Center(child: Icon(CupertinoIcons.heart_fill,size: 30,color: Color(0xffcff85e),))
+    // child: Center(child: Icon(CupertinoIcons.heart_fill,size: 30,color: Color(0xffcff85e),))
   );
 }
 

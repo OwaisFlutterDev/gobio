@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:gobio/constant/constants.dart';
 import 'package:gobio/controller/onboarding_controller.dart';
-import 'package:gobio/view/widgets/common_widgets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gobio/view/widgets/onboarding_screen_widgets.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
@@ -43,6 +42,7 @@ class OnBoardingScreen extends StatelessWidget {
                     ],
                   ),
                 ),
+
              Positioned(
                bottom: 0,
                child: Container(
@@ -72,6 +72,4 @@ class OnBoardingScreen extends StatelessWidget {
     }),
     );
   }
-
-
 }
